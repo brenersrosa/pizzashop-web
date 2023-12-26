@@ -1,7 +1,10 @@
+import '@/styles/global.css'
+import { Button } from './components/ui/button'
+
 export function App() {
     return (
-    <>
-      <h1>d3v</h1>
-    </>
+    <div className='h-screen w-screen flex justify-center items-center'>
+      <Button>Enviar</Button>
+    </div>
   )
 }
